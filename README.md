@@ -29,13 +29,13 @@ To replicate this functionality for the production environment, we need to:
 - Click on **Add Custom Domain** and enter the domain you want to use (e.g., www.lifeandeo.ca).
 
 ### Verify Domain Ownership:
-- Azure will provide a TXT or CNAME record to verify ownership.
+- Azure will provide a TXT or CNAME record to verify ownership. Do not validate note down txt and cname
 - In Cloudflare, add this record to your DNS settings:
-  - **Type:** TXT or CNAME
-  - **Name:** As specified by Azure (e.g., _acme-challenge.www.lifeandeo.ca).
+  - **Type:** TXT
+  - **Name:** As specified by Azure (e.g., host is asuid).
   - **Content:** Value provided by Azure.
 - Wait for Azure to verify the domain. This may take a few minutes.
-
+  
 ### Bind the Custom Domain:
 - Once verified, Azure will bind the domain to the production App Service.
 
