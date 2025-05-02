@@ -1,4 +1,4 @@
-Sure, I can help you create a Markdown file with the content you provided. Here is the step-by-step guide formatted in Markdown:
+step-by-step guide formatted in Markdown:
 
 ```markdown
 # Adding a Custom Domain and Updating Cloudflare for Production Environment
